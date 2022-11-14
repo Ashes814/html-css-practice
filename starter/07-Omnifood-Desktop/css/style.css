@@ -53,7 +53,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -90,7 +90,7 @@ body {
 .btn:link,
 .btn:visited {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   display: inline-block;
   border-radius: 9px;
@@ -129,4 +129,38 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+  margin-right: -1.6rem;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
