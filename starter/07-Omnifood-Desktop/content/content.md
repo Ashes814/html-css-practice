@@ -45,12 +45,6 @@ Kid-friendly
 
 ---
 
-### We offer a free sample meal
-
-[Create simple form for users to sign up]
-
-Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
-
 ### We have 2 pricing plans
 
 Prices include all applicable taxes. Users can cancel at any time.
@@ -78,9 +72,7 @@ Complete: $649 per month
 
 ### Contact information
 
-Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
-Phone: 415-201-6370
-Email: hello@omnifood.com
+Address:
 
 Social profiles: instagram, facebook, twitter [links to them not available yet]
 
