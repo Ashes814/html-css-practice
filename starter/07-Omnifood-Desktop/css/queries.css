@@ -121,6 +121,7 @@ Below 940px (Landscape Tablets)
 
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -174,5 +175,120 @@ Below 940px (Landscape Tablets)
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 6.4rem;
+  }
+}
+
+/* 
+Below 700px (Landscape Tablets)
+*/
+
+@media (max-width: 43.75em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col {
+    grid-column: span 3;
+  }
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}
+
+/* 
+Below 550px (Phones)
+*/
+
+@media (max-width: 34.375em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .hero-img {
+  }
+
+  .seciton-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+
+  .grid--footer {
+    column-gap: 4.8rem;
   }
 }
